@@ -2,7 +2,7 @@
 //  JBAppDelegate.h
 //  iOS Kickstarter
 //
-//  Created by Andreas Johannessen on 10/30/12.
+//  Created by Andreas Johannessen on 10/29/12.
 //  Copyright (c) 2012 JBeans. All rights reserved.
 //
 

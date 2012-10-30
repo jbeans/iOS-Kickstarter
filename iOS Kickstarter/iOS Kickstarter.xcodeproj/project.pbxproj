@@ -21,6 +21,22 @@
 		A9BD3F851640178000D8BAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD3F661640178000D8BAAA /* Foundation.framework */; };
 		A9BD3F8D1640178000D8BAAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3F8B1640178000D8BAAA /* InfoPlist.strings */; };
 		A9BD3F901640178000D8BAAA /* iOS_KickstarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3F8F1640178000D8BAAA /* iOS_KickstarterTests.m */; };
+		A9BD3F9F164017C100D8BAAA /* JBAboutAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3F9B164017C100D8BAAA /* JBAboutAppViewController.xib */; };
+		A9BD3FA0164017C100D8BAAA /* JBAccessoriesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3F9C164017C100D8BAAA /* JBAccessoriesDetailViewController.xib */; };
+		A9BD3FA1164017C100D8BAAA /* JBAccessoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3F9D164017C100D8BAAA /* JBAccessoriesViewController.xib */; };
+		A9BD3FA2164017C100D8BAAA /* JBDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3F9E164017C100D8BAAA /* JBDashboardViewController.xib */; };
+		A9BD3FAD164017DA00D8BAAA /* JBAboutAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FA8164017DA00D8BAAA /* JBAboutAppViewController.m */; };
+		A9BD3FAE164017DA00D8BAAA /* JBAccessoriesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FA9164017DA00D8BAAA /* JBAccessoriesDetailViewController.m */; };
+		A9BD3FAF164017DA00D8BAAA /* JBAccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAA164017DA00D8BAAA /* JBAccessoriesViewController.m */; };
+		A9BD3FB0164017DA00D8BAAA /* JBAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */; };
+		A9BD3FB1164017DA00D8BAAA /* JBDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAC164017DA00D8BAAA /* JBDashboardViewController.m */; };
+		A9BD3FB41640181400D8BAAA /* tamagotchi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3FB31640181400D8BAAA /* tamagotchi.jpg */; };
+		A9BD3FB5164018A000D8BAAA /* JBAboutAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FA8164017DA00D8BAAA /* JBAboutAppViewController.m */; };
+		A9BD3FB6164018A000D8BAAA /* JBAccessoriesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FA9164017DA00D8BAAA /* JBAccessoriesDetailViewController.m */; };
+		A9BD3FB7164018A000D8BAAA /* JBAccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAA164017DA00D8BAAA /* JBAccessoriesViewController.m */; };
+		A9BD3FB8164018A000D8BAAA /* JBAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */; };
+		A9BD3FB9164018A000D8BAAA /* JBDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD3FAC164017DA00D8BAAA /* JBDashboardViewController.m */; };
+		A9BD3FC41640194B00D8BAAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9BD3FC61640194B00D8BAAA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,25 @@
 		A9BD3F8C1640178000D8BAAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9BD3F8E1640178000D8BAAA /* iOS_KickstarterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_KickstarterTests.h; sourceTree = "<group>"; };
 		A9BD3F8F1640178000D8BAAA /* iOS_KickstarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_KickstarterTests.m; sourceTree = "<group>"; };
+		A9BD3F9B164017C100D8BAAA /* JBAboutAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBAboutAppViewController.xib; sourceTree = "<group>"; };
+		A9BD3F9C164017C100D8BAAA /* JBAccessoriesDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBAccessoriesDetailViewController.xib; sourceTree = "<group>"; };
+		A9BD3F9D164017C100D8BAAA /* JBAccessoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBAccessoriesViewController.xib; sourceTree = "<group>"; };
+		A9BD3F9E164017C100D8BAAA /* JBDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBDashboardViewController.xib; sourceTree = "<group>"; };
+		A9BD3FA3164017DA00D8BAAA /* JBAboutAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAboutAppViewController.h; sourceTree = "<group>"; };
+		A9BD3FA4164017DA00D8BAAA /* JBAccessoriesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAccessoriesDetailViewController.h; sourceTree = "<group>"; };
+		A9BD3FA5164017DA00D8BAAA /* JBAccessoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAccessoriesViewController.h; sourceTree = "<group>"; };
+		A9BD3FA6164017DA00D8BAAA /* JBAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAccessory.h; sourceTree = "<group>"; };
+		A9BD3FA7164017DA00D8BAAA /* JBDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDashboardViewController.h; sourceTree = "<group>"; };
+		A9BD3FA8164017DA00D8BAAA /* JBAboutAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAboutAppViewController.m; sourceTree = "<group>"; };
+		A9BD3FA9164017DA00D8BAAA /* JBAccessoriesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAccessoriesDetailViewController.m; sourceTree = "<group>"; };
+		A9BD3FAA164017DA00D8BAAA /* JBAccessoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAccessoriesViewController.m; sourceTree = "<group>"; };
+		A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAccessory.m; sourceTree = "<group>"; };
+		A9BD3FAC164017DA00D8BAAA /* JBDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBDashboardViewController.m; sourceTree = "<group>"; };
+		A9BD3FB31640181400D8BAAA /* tamagotchi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamagotchi.jpg; sourceTree = "<group>"; };
+		A9BD3FC21640193600D8BAAA /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9BD3FC31640193600D8BAAA /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9BD3FC51640194B00D8BAAA /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9BD3FC71640195000D8BAAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +147,8 @@
 		A9BD3F6A1640178000D8BAAA /* iOS Kickstarter */ = {
 			isa = PBXGroup;
 			children = (
+				A9BD3F9A164017AA00D8BAAA /* Controllers */,
+				A9BD3F99164017A000D8BAAA /* Views */,
 				A9BD3F731640178000D8BAAA /* JBAppDelegate.h */,
 				A9BD3F741640178000D8BAAA /* JBAppDelegate.m */,
 				A9BD3F6B1640178000D8BAAA /* Supporting Files */,
@@ -122,6 +159,8 @@
 		A9BD3F6B1640178000D8BAAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9BD3FC61640194B00D8BAAA /* Localizable.strings */,
+				A9BD3FB21640180A00D8BAAA /* Images */,
 				A9BD3F6C1640178000D8BAAA /* iOS Kickstarter-Info.plist */,
 				A9BD3F6D1640178000D8BAAA /* InfoPlist.strings */,
 				A9BD3F701640178000D8BAAA /* main.m */,
@@ -150,6 +189,42 @@
 				A9BD3F8B1640178000D8BAAA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BD3F99164017A000D8BAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD3F9B164017C100D8BAAA /* JBAboutAppViewController.xib */,
+				A9BD3F9C164017C100D8BAAA /* JBAccessoriesDetailViewController.xib */,
+				A9BD3F9D164017C100D8BAAA /* JBAccessoriesViewController.xib */,
+				A9BD3F9E164017C100D8BAAA /* JBDashboardViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A9BD3F9A164017AA00D8BAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD3FA3164017DA00D8BAAA /* JBAboutAppViewController.h */,
+				A9BD3FA4164017DA00D8BAAA /* JBAccessoriesDetailViewController.h */,
+				A9BD3FA5164017DA00D8BAAA /* JBAccessoriesViewController.h */,
+				A9BD3FA6164017DA00D8BAAA /* JBAccessory.h */,
+				A9BD3FA7164017DA00D8BAAA /* JBDashboardViewController.h */,
+				A9BD3FA8164017DA00D8BAAA /* JBAboutAppViewController.m */,
+				A9BD3FA9164017DA00D8BAAA /* JBAccessoriesDetailViewController.m */,
+				A9BD3FAA164017DA00D8BAAA /* JBAccessoriesViewController.m */,
+				A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */,
+				A9BD3FAC164017DA00D8BAAA /* JBDashboardViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A9BD3FB21640180A00D8BAAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD3FB31640181400D8BAAA /* tamagotchi.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +282,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				nb,
 			);
 			mainGroup = A9BD3F551640178000D8BAAA;
 			productRefGroup = A9BD3F611640178000D8BAAA /* Products */;
@@ -228,6 +304,12 @@
 				A9BD3F771640178000D8BAAA /* Default.png in Resources */,
 				A9BD3F791640178000D8BAAA /* Default@2x.png in Resources */,
 				A9BD3F7B1640178000D8BAAA /* Default-568h@2x.png in Resources */,
+				A9BD3F9F164017C100D8BAAA /* JBAboutAppViewController.xib in Resources */,
+				A9BD3FA0164017C100D8BAAA /* JBAccessoriesDetailViewController.xib in Resources */,
+				A9BD3FA1164017C100D8BAAA /* JBAccessoriesViewController.xib in Resources */,
+				A9BD3FA2164017C100D8BAAA /* JBDashboardViewController.xib in Resources */,
+				A9BD3FB41640181400D8BAAA /* tamagotchi.jpg in Resources */,
+				A9BD3FC41640194B00D8BAAA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BD3FB5164018A000D8BAAA /* JBAboutAppViewController.m in Sources */,
+				A9BD3FB6164018A000D8BAAA /* JBAccessoriesDetailViewController.m in Sources */,
+				A9BD3FB7164018A000D8BAAA /* JBAccessoriesViewController.m in Sources */,
+				A9BD3FB8164018A000D8BAAA /* JBAccessory.m in Sources */,
+				A9BD3FB9164018A000D8BAAA /* JBDashboardViewController.m in Sources */,
 				A9BD3F711640178000D8BAAA /* main.m in Sources */,
 				A9BD3F751640178000D8BAAA /* JBAppDelegate.m in Sources */,
 			);
@@ -272,6 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9BD3F901640178000D8BAAA /* iOS_KickstarterTests.m in Sources */,
+				A9BD3FAD164017DA00D8BAAA /* JBAboutAppViewController.m in Sources */,
+				A9BD3FAE164017DA00D8BAAA /* JBAccessoriesDetailViewController.m in Sources */,
+				A9BD3FAF164017DA00D8BAAA /* JBAccessoriesViewController.m in Sources */,
+				A9BD3FB0164017DA00D8BAAA /* JBAccessory.m in Sources */,
+				A9BD3FB1164017DA00D8BAAA /* JBDashboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +382,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9BD3F6E1640178000D8BAAA /* en */,
+				A9BD3FC21640193600D8BAAA /* nb */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -298,8 +391,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9BD3F8C1640178000D8BAAA /* en */,
+				A9BD3FC31640193600D8BAAA /* nb */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9BD3FC61640194B00D8BAAA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BD3FC51640194B00D8BAAA /* nb */,
+				A9BD3FC71640195000D8BAAA /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,6 +463,10 @@
 		A9BD3F941640178000D8BAAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Kickstarter/iOS Kickstarter-Prefix.pch";
 				INFOPLIST_FILE = "iOS Kickstarter/iOS Kickstarter-Info.plist";
@@ -371,6 +478,10 @@
 		A9BD3F951640178000D8BAAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Kickstarter/iOS Kickstarter-Prefix.pch";
 				INFOPLIST_FILE = "iOS Kickstarter/iOS Kickstarter-Info.plist";
@@ -432,6 +543,7 @@
 				A9BD3F951640178000D8BAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BD3F961640178000D8BAAA /* Build configuration list for PBXNativeTarget "iOS KickstarterTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +552,7 @@
 				A9BD3F981640178000D8BAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

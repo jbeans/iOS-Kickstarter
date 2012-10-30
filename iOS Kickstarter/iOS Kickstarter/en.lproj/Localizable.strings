@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  iOS Bootstrap
-
-  Created by Andreas Johannessen on 10/29/12.
-  Copyright (c) 2012 JBeans. All rights reserved.
-*/
+/*
+ Localizable.strings
+ iOS Kickstarter
+ 
+ Created by Andreas Johannessen on 10/29/12.
+ Copyright (c) 2012 JBeans. All rights reserved.
+ */
 
 JBDashboardViewController_navTitle="Dashboard";
 JBDashboardViewController_tabTitle="Dashboard";
