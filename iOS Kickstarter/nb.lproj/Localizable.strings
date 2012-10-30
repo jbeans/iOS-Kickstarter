@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  iOS Bootstrap
+
+  Created by Andreas Johannessen on 10/29/12.
+  Copyright (c) 2012 JBeans. All rights reserved.
+*/
+JBDashboardViewController_title="Dashboard";
+JBDashboardViewController_tabTitle="Dashboard";
+JBDashboardViewController_barItemAbout="Om";
+
+JBAccessoriesViewController_navTitle="Tilbehør";
+JBAccessoriesViewController_tabTitle="Tilbehør";
+
+JBAboutAppViewController_navTitle="Om";
+JBAboutAppViewController_barItemClose="Lukk";
+JBAboutAppViewController_alertDismissTitle="Viewet ble lukket.";
+JBAboutAppViewController_alertDismissMessage="Dette er et eksempel på en completion handler.";
+JBAboutAppViewController_alertDismissCancelButton="Lukk";
