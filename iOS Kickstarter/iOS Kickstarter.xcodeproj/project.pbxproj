@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98C6BCB16401CD60059996C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98C6BC916401CC20059996C /* SystemConfiguration.framework */; };
+		A98C6BD8164021B80059996C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C6BD7164021B80059996C /* Reachability.m */; };
+		A98C6BDC164028FD0059996C /* JBMissionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C6BDA164028FD0059996C /* JBMissionsViewController.m */; };
+		A98C6BDD164028FD0059996C /* JBMissionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98C6BDB164028FD0059996C /* JBMissionsViewController.xib */; };
+		A98C6BE1164029AC0059996C /* JBMissionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C6BDF164029AC0059996C /* JBMissionDetailsViewController.m */; };
+		A98C6BE2164029AC0059996C /* JBMissionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98C6BE0164029AC0059996C /* JBMissionDetailsViewController.xib */; };
+		A98C6BE516402EDB0059996C /* JBMission.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C6BE416402EDB0059996C /* JBMission.m */; };
+		A98C6BE8164030020059996C /* JBMissionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98C6BE7164030020059996C /* JBMissionCell.xib */; };
+		A98C6BEC164030750059996C /* JBMissionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C6BEB164030750059996C /* JBMissionCell.m */; };
 		A9BD3F651640178000D8BAAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD3F641640178000D8BAAA /* UIKit.framework */; };
 		A9BD3F671640178000D8BAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD3F661640178000D8BAAA /* Foundation.framework */; };
 		A9BD3F691640178000D8BAAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD3F681640178000D8BAAA /* CoreGraphics.framework */; };
@@ -50,6 +59,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A98C6BC916401CC20059996C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A98C6BD6164021B80059996C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A98C6BD7164021B80059996C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A98C6BD9164028FC0059996C /* JBMissionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMissionsViewController.h; sourceTree = "<group>"; };
+		A98C6BDA164028FD0059996C /* JBMissionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMissionsViewController.m; sourceTree = "<group>"; };
+		A98C6BDB164028FD0059996C /* JBMissionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMissionsViewController.xib; sourceTree = "<group>"; };
+		A98C6BDE164029AC0059996C /* JBMissionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMissionDetailsViewController.h; sourceTree = "<group>"; };
+		A98C6BDF164029AC0059996C /* JBMissionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMissionDetailsViewController.m; sourceTree = "<group>"; };
+		A98C6BE0164029AC0059996C /* JBMissionDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMissionDetailsViewController.xib; sourceTree = "<group>"; };
+		A98C6BE316402EDB0059996C /* JBMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMission.h; sourceTree = "<group>"; };
+		A98C6BE416402EDB0059996C /* JBMission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMission.m; sourceTree = "<group>"; };
+		A98C6BE7164030020059996C /* JBMissionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMissionCell.xib; sourceTree = "<group>"; };
+		A98C6BEA164030750059996C /* JBMissionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMissionCell.h; sourceTree = "<group>"; };
+		A98C6BEB164030750059996C /* JBMissionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMissionCell.m; sourceTree = "<group>"; };
 		A9BD3F601640178000D8BAAA /* iOS Kickstarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Kickstarter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BD3F641640178000D8BAAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9BD3F661640178000D8BAAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98C6BCB16401CD60059996C /* SystemConfiguration.framework in Frameworks */,
 				A9BD3F651640178000D8BAAA /* UIKit.framework in Frameworks */,
 				A9BD3F671640178000D8BAAA /* Foundation.framework in Frameworks */,
 				A9BD3F691640178000D8BAAA /* CoreGraphics.framework in Frameworks */,
@@ -114,6 +138,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A98C6BCC16401CF20059996C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A98C6BD6164021B80059996C /* Reachability.h */,
+				A98C6BD7164021B80059996C /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		A98C6BD516401ECD0059996C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD3FA6164017DA00D8BAAA /* JBAccessory.h */,
+				A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */,
+				A98C6BE316402EDB0059996C /* JBMission.h */,
+				A98C6BE416402EDB0059996C /* JBMission.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A98C6BE616402FDE0059996C /* Custom Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A98C6BE7164030020059996C /* JBMissionCell.xib */,
+			);
+			name = "Custom Table Cells";
+			sourceTree = "<group>";
+		};
+		A98C6BE9164030200059996C /* MissionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A98C6BEA164030750059996C /* JBMissionCell.h */,
+				A98C6BEB164030750059996C /* JBMissionCell.m */,
+			);
+			name = MissionCell;
+			sourceTree = "<group>";
+		};
 		A9BD3F551640178000D8BAAA = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +197,7 @@
 		A9BD3F631640178000D8BAAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A98C6BC916401CC20059996C /* SystemConfiguration.framework */,
 				A9BD3F641640178000D8BAAA /* UIKit.framework */,
 				A9BD3F661640178000D8BAAA /* Foundation.framework */,
 				A9BD3F681640178000D8BAAA /* CoreGraphics.framework */,
@@ -147,6 +209,8 @@
 		A9BD3F6A1640178000D8BAAA /* iOS Kickstarter */ = {
 			isa = PBXGroup;
 			children = (
+				A98C6BD516401ECD0059996C /* Model */,
+				A98C6BCC16401CF20059996C /* Reachability */,
 				A9BD3F9A164017AA00D8BAAA /* Controllers */,
 				A9BD3F99164017A000D8BAAA /* Views */,
 				A9BD3F731640178000D8BAAA /* JBAppDelegate.h */,
@@ -194,6 +258,9 @@
 		A9BD3F99164017A000D8BAAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A98C6BE616402FDE0059996C /* Custom Table Cells */,
+				A98C6BDB164028FD0059996C /* JBMissionsViewController.xib */,
+				A98C6BE0164029AC0059996C /* JBMissionDetailsViewController.xib */,
 				A9BD3F9B164017C100D8BAAA /* JBAboutAppViewController.xib */,
 				A9BD3F9C164017C100D8BAAA /* JBAccessoriesDetailViewController.xib */,
 				A9BD3F9D164017C100D8BAAA /* JBAccessoriesViewController.xib */,
@@ -205,16 +272,19 @@
 		A9BD3F9A164017AA00D8BAAA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A98C6BE9164030200059996C /* MissionCell */,
 				A9BD3FA3164017DA00D8BAAA /* JBAboutAppViewController.h */,
-				A9BD3FA4164017DA00D8BAAA /* JBAccessoriesDetailViewController.h */,
-				A9BD3FA5164017DA00D8BAAA /* JBAccessoriesViewController.h */,
-				A9BD3FA6164017DA00D8BAAA /* JBAccessory.h */,
-				A9BD3FA7164017DA00D8BAAA /* JBDashboardViewController.h */,
 				A9BD3FA8164017DA00D8BAAA /* JBAboutAppViewController.m */,
+				A9BD3FA4164017DA00D8BAAA /* JBAccessoriesDetailViewController.h */,
 				A9BD3FA9164017DA00D8BAAA /* JBAccessoriesDetailViewController.m */,
+				A9BD3FA5164017DA00D8BAAA /* JBAccessoriesViewController.h */,
 				A9BD3FAA164017DA00D8BAAA /* JBAccessoriesViewController.m */,
-				A9BD3FAB164017DA00D8BAAA /* JBAccessory.m */,
+				A9BD3FA7164017DA00D8BAAA /* JBDashboardViewController.h */,
 				A9BD3FAC164017DA00D8BAAA /* JBDashboardViewController.m */,
+				A98C6BD9164028FC0059996C /* JBMissionsViewController.h */,
+				A98C6BDA164028FD0059996C /* JBMissionsViewController.m */,
+				A98C6BDE164029AC0059996C /* JBMissionDetailsViewController.h */,
+				A98C6BDF164029AC0059996C /* JBMissionDetailsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -310,6 +380,9 @@
 				A9BD3FA2164017C100D8BAAA /* JBDashboardViewController.xib in Resources */,
 				A9BD3FB41640181400D8BAAA /* tamagotchi.jpg in Resources */,
 				A9BD3FC41640194B00D8BAAA /* Localizable.strings in Resources */,
+				A98C6BDD164028FD0059996C /* JBMissionsViewController.xib in Resources */,
+				A98C6BE2164029AC0059996C /* JBMissionDetailsViewController.xib in Resources */,
+				A98C6BE8164030020059996C /* JBMissionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +424,11 @@
 				A9BD3FB9164018A000D8BAAA /* JBDashboardViewController.m in Sources */,
 				A9BD3F711640178000D8BAAA /* main.m in Sources */,
 				A9BD3F751640178000D8BAAA /* JBAppDelegate.m in Sources */,
+				A98C6BD8164021B80059996C /* Reachability.m in Sources */,
+				A98C6BDC164028FD0059996C /* JBMissionsViewController.m in Sources */,
+				A98C6BE1164029AC0059996C /* JBMissionDetailsViewController.m in Sources */,
+				A98C6BE516402EDB0059996C /* JBMission.m in Sources */,
+				A98C6BEC164030750059996C /* JBMissionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

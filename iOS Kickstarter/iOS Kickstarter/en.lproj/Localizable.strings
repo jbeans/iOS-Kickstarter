@@ -9,8 +9,14 @@
 JBDashboardViewController_navTitle="Dashboard";
 JBDashboardViewController_tabTitle="Dashboard";
 JBDashboardViewController_barItemAbout="About";
+JBDashboardViewController_alertInternetStatusTitle="Internet connection";
+JBDashboardViewController_alertInternetStatusMessage1="Not connected";
+JBDashboardViewController_alertInternetStatusMessage2="Reachable via WLAN";
+JBDashboardViewController_alertInternetStatusMessage3="Reachable via WWAN";
+JBDashboardViewController_alertInternetStatusCancelButton="Close";
+JBDashboardViewController_labelDevice="I live in an %@";
 
-JBAccessoriesViewController_tabTitle="Accessories";
+JBAccessoriesViewController_navTitle="Accessories";
 JBAccessoriesViewController_tabTitle="Accessories";
 
 JBAboutAppViewController_navTitle="About";
@@ -18,3 +24,6 @@ JBAboutAppViewController_barItemClose="Close";
 JBAboutAppViewController_alertDismissTitle="View was closed";
 JBAboutAppViewController_alertDismissMessage="This is an example of a completion handler.";
 JBAboutAppViewController_alertDismissCancelButton="Close";
+
+JBMissionsViewController_navTitle="Missions";
+JBMissionsViewController_tabTitle="Missions";

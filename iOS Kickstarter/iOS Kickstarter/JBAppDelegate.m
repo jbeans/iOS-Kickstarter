@@ -9,6 +9,7 @@
 #import "JBAppDelegate.h"
 #import "JBDashboardViewController.h"
 #import "JBAccessoriesViewController.h"
+#import "JBMissionsViewController.h"
 
 @implementation JBAppDelegate
 
@@ -20,15 +21,19 @@
     // Creates the view controllers which will be the first view on each tab.
     JBDashboardViewController* dashboardVC = [[JBDashboardViewController alloc] initWithNibName:@"JBDashboardViewController" bundle:nil];
     JBAccessoriesViewController* accessoriesVC = [[JBAccessoriesViewController alloc] initWithNibName:@"JBAccessoriesViewController" bundle:nil];
+    JBMissionsViewController* missionsVC = [[JBMissionsViewController alloc] initWithNibName:@"JBMissionsViewController" bundle:nil];
     
     // Uses a navigation controller for each tab. It will then be possible to add a hierachy of view controllers with push/pop functionality.
     UINavigationController* dashboardNVC = [[UINavigationController alloc] initWithRootViewController:dashboardVC];
     UINavigationController* accessoriesNVC = [[UINavigationController alloc] initWithRootViewController:accessoriesVC];
+    UINavigationController* missionsNVC = [[UINavigationController alloc] initWithRootViewController:missionsVC];
+    
     dashboardNVC.tabBarItem.title = NSLocalizedString(@"JBDashboardViewController_tabTitle", nil);
     accessoriesNVC.tabBarItem.title = NSLocalizedString(@"JBAccessoriesViewController_tabTitle", nil);
+    missionsNVC.tabBarItem.title = NSLocalizedString(@"JBMissionsViewController_tabTitle", nil);
     
     // Contains the view controllers (which is wrapped inside a UINavigationController) that will be added on the tab bar.
-    NSArray* tabBarControllers = [NSArray arrayWithObjects:dashboardNVC, accessoriesNVC, nil];
+    NSArray* tabBarControllers = [NSArray arrayWithObjects:dashboardNVC, accessoriesNVC, missionsNVC, nil];
     
     UITabBarController* tabBarVC = [[UITabBarController alloc] init];
     [tabBarVC setViewControllers:tabBarControllers];

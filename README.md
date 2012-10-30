@@ -1,4 +1,4 @@
-# iOS-Bootstrap
+# iOS Kickstarter
 
 
 ## Tips & triks
@@ -16,3 +16,10 @@ Språkstøtte:
 
 Minnehåndtering og ARC:
 * [Difference between a strong and weak pointer?](http://www.quora.com/Objective-C-programming-language/In-Objective-C-whats-the-difference-between-a-strong-and-weak-pointer)
+
+Reachability - Sjekke om man har internett
+* [Reachability fra Apple](http://stackoverflow.com/questions/3790957/reachability-guide-for-ios-4)
+* [Kan ikke bruke Reachability fra Apple med ARC](http://stackoverflow.com/questions/7797008/need-reachability-version-for-arc-in-ios5)
+
+Custom cells i UITableView:
+* [Custom cells](http://highoncoding.com/Articles/823_Creating_a_Custom_UITableViewCell.aspx)

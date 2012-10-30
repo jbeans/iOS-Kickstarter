@@ -10,6 +10,9 @@
 
 @interface JBDashboardViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel* lblDevice;
+
 - (void)showAboutAppView;
+- (IBAction)checkInternetConnection:(id)sender;
 
 @end

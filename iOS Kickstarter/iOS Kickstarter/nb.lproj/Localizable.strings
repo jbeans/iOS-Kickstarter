@@ -8,6 +8,12 @@
 JBDashboardViewController_title="Dashboard";
 JBDashboardViewController_tabTitle="Dashboard";
 JBDashboardViewController_barItemAbout="Om";
+JBDashboardViewController_alertInternetStatusTitle="Internettilkobling";
+JBDashboardViewController_alertInternetStatusMessage1="Ikke tilkoblet";
+JBDashboardViewController_alertInternetStatusMessage2="Tilgjengelig via WLAN";
+JBDashboardViewController_alertInternetStatusMessage3="Tilgjengelig via WWAN";
+JBDashboardViewController_alertInternetStatusCancelButton="Lukk";
+JBDashboardViewController_labelDevice="Jeg bor i en %@";
 
 JBAccessoriesViewController_navTitle="Tilbehør";
 JBAccessoriesViewController_tabTitle="Tilbehør";
@@ -17,3 +23,7 @@ JBAboutAppViewController_barItemClose="Lukk";
 JBAboutAppViewController_alertDismissTitle="Viewet ble lukket.";
 JBAboutAppViewController_alertDismissMessage="Dette er et eksempel på en completion handler.";
 JBAboutAppViewController_alertDismissCancelButton="Lukk";
+
+
+JBMissionsViewController_navTitle="Oppdrag";
+JBMissionsViewController_tabTitle="Oppdrag";
