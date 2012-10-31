@@ -11,7 +11,7 @@
 @implementation JBMissionCell
 
 @synthesize lblTitle;
-@synthesize image;
+@synthesize imgMissionThumb;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

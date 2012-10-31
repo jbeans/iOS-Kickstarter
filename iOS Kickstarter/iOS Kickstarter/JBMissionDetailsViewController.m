@@ -7,12 +7,16 @@
 //
 
 #import "JBMissionDetailsViewController.h"
+#import "JBMission.h"
 
 @interface JBMissionDetailsViewController ()
 
 @end
 
 @implementation JBMissionDetailsViewController
+
+@synthesize mission;
+@synthesize missionWeb;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +30,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.title = self.mission.title;
+    
+    NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.no"]];
+    [self.missionWeb loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning

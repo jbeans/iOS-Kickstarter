@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class JBMission;
+
 @interface JBMissionDetailsViewController : UIViewController
+
+@property (strong, nonatomic) JBMission* mission;
+@property (strong, nonatomic) IBOutlet UIWebView* missionWeb;
 
 @end

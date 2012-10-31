@@ -1,5 +1,7 @@
 # iOS Kickstarter
 
+Dette prosjektet er ment for å demonstrere funksjonalitet og måter man kan sette sammen ulike komponenter på. 
+[Tamagotchi](http://no.wikipedia.org/wiki/Tamagotchi) har blitt brukt for å ha noe å henge funksjonaliteten på.
 
 ## Tips & triks
 

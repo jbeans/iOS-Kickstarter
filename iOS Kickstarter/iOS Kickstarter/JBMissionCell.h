@@ -11,6 +11,6 @@
 @interface JBMissionCell : UITableViewCell
 
 @property (strong, nonatomic) IBOutlet UILabel* lblTitle;
-@property (strong, nonatomic) IBOutlet UIImageView* image;
+@property (strong, nonatomic) IBOutlet UIImageView* imgMissionThumb;
 
 @end
