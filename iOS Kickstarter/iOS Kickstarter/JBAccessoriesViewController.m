@@ -87,17 +87,17 @@
 - (void)initAccessoryData {
     JBAccessory* accessory1 = [[JBAccessory alloc] init];
     accessory1.title = @"Gåstokk";
-    accessory1.description = @"En fin gåstokk.";
+    accessory1.description = @"Gåstokkbeskrivelse.";
     accessory1.prize = 20;
     
     JBAccessory* accessory2 = [[JBAccessory alloc] init];
     accessory2.title = @"Hatt";
-    accessory2.description = @"En fin hatt.";
+    accessory2.description = @"Hattebeskrivelse.";
     accessory2.prize = 5;
     
     JBAccessory* accessory3 = [[JBAccessory alloc] init];
-    accessory3.title = @"Smokk";
-    accessory3.description = @"En fin smokk.";
+    accessory3.title = @"Sykkel";
+    accessory3.description = @"Sykkelbeskrivelse.";
     accessory3.prize = 10;
     
     self.accessories = [NSArray arrayWithObjects:accessory1, accessory2, accessory3, nil];
