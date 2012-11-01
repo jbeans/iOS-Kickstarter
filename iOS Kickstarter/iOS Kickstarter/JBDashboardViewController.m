@@ -28,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"JBDashboardViewController#viewDidLoad");
 
     self.title = NSLocalizedString(@"JBDashboardViewController_tabTitle", nil);
     
@@ -45,6 +47,30 @@
     } else {
         self.lblDevice.text = [NSString stringWithFormat:NSLocalizedString(@"JBDashboardViewController_labelDevice", nil), @"iPhone"];
     }
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSLog(@"JBDashboardViewController#viewWillAppear");
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    NSLog(@"JBDashboardViewController#viewDidAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    NSLog(@"JBDashboardViewController#viewWillDisappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+    NSLog(@"JBDashboardViewController#viewDidDisappear");
 }
 
 - (void)didReceiveMemoryWarning

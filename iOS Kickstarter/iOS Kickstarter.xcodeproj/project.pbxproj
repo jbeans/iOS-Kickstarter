@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A954444E1642519600AF89C9 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A954444B1642519600AF89C9 /* calendar.png */; };
+		A954444F1642519600AF89C9 /* mug.png in Resources */ = {isa = PBXBuildFile; fileRef = A954444C1642519600AF89C9 /* mug.png */; };
+		A95444501642519600AF89C9 /* thermo.png in Resources */ = {isa = PBXBuildFile; fileRef = A954444D1642519600AF89C9 /* thermo.png */; };
 		A954EC5B1641A0C300DD4DAD /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = A954EC581641A0C300DD4DAD /* basket.png */; };
 		A954EC5C1641A0C300DD4DAD /* jogger.png in Resources */ = {isa = PBXBuildFile; fileRef = A954EC591641A0C300DD4DAD /* jogger.png */; };
 		A954EC5D1641A0C300DD4DAD /* runner.png in Resources */ = {isa = PBXBuildFile; fileRef = A954EC5A1641A0C300DD4DAD /* runner.png */; };
@@ -62,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A954444B1642519600AF89C9 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		A954444C1642519600AF89C9 /* mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mug.png; sourceTree = "<group>"; };
+		A954444D1642519600AF89C9 /* thermo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermo.png; sourceTree = "<group>"; };
 		A954EC581641A0C300DD4DAD /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
 		A954EC591641A0C300DD4DAD /* jogger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jogger.png; sourceTree = "<group>"; };
 		A954EC5A1641A0C300DD4DAD /* runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runner.png; sourceTree = "<group>"; };
@@ -144,6 +150,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A95444491642518300AF89C9 /* Tab bar icons */ = {
+			isa = PBXGroup;
+			children = (
+				A954444B1642519600AF89C9 /* calendar.png */,
+				A954444C1642519600AF89C9 /* mug.png */,
+				A954444D1642519600AF89C9 /* thermo.png */,
+			);
+			name = "Tab bar icons";
+			sourceTree = "<group>";
+		};
 		A98C6BCC16401CF20059996C /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +245,7 @@
 		A9BD3F6B1640178000D8BAAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A95444491642518300AF89C9 /* Tab bar icons */,
 				A9BD3FC61640194B00D8BAAA /* Localizable.strings */,
 				A9BD3FB21640180A00D8BAAA /* Images */,
 				A9BD3F6C1640178000D8BAAA /* iOS Kickstarter-Info.plist */,
@@ -395,6 +412,9 @@
 				A954EC5B1641A0C300DD4DAD /* basket.png in Resources */,
 				A954EC5C1641A0C300DD4DAD /* jogger.png in Resources */,
 				A954EC5D1641A0C300DD4DAD /* runner.png in Resources */,
+				A954444E1642519600AF89C9 /* calendar.png in Resources */,
+				A954444F1642519600AF89C9 /* mug.png in Resources */,
+				A95444501642519600AF89C9 /* thermo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

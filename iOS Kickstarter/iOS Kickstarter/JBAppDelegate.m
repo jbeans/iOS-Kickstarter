@@ -29,8 +29,13 @@
     UINavigationController* missionsNVC = [[UINavigationController alloc] initWithRootViewController:missionsVC];
     
     dashboardNVC.tabBarItem.title = NSLocalizedString(@"JBDashboardViewController_tabTitle", nil);
+    dashboardNVC.tabBarItem.image = [UIImage imageNamed:@"calendar.png"];
+    
     accessoriesNVC.tabBarItem.title = NSLocalizedString(@"JBAccessoriesViewController_tabTitle", nil);
+    accessoriesNVC.tabBarItem.image = [UIImage imageNamed:@"mug.png"];
+    
     missionsNVC.tabBarItem.title = NSLocalizedString(@"JBMissionsViewController_tabTitle", nil);
+    missionsNVC.tabBarItem.image = [UIImage imageNamed:@"thermo.png"];
     
     // Contains the view controllers (which is wrapped inside a UINavigationController) that will be added on the tab bar.
     NSArray* tabBarControllers = [NSArray arrayWithObjects:dashboardNVC, accessoriesNVC, missionsNVC, nil];

@@ -1,12 +1,14 @@
 # iOS Kickstarter
 
 Dette prosjektet er ment for å demonstrere funksjonalitet og måter man kan sette sammen ulike komponenter på. 
-[Tamagotchi](http://no.wikipedia.org/wiki/Tamagotchi) har blitt brukt for å ha noe å henge funksjonaliteten på.
+[Tamagotchi](http://no.wikipedia.org/wiki/Tamagotchi) har blitt brukt for å ha noe å "henge" funksjonaliteten på.
 
-## Tips & triks
+## Ressurser
+
+Apple Human Interface Guidelines
+* [Guidelines](http://developer.apple.com/library/ios/#DOCUMENTATION/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html)
 
 Konflikter i .pbxproj:
-
 * [How to use Git properly with XCode?](http://stackoverflow.com/questions/2615378/how-to-use-git-properly-with-xcode)
 
 Blocks i Objective-C:
@@ -25,3 +27,6 @@ Reachability - Sjekke om man har internett
 
 Custom cells i UITableView:
 * [Custom cells](http://highoncoding.com/Articles/823_Creating_a_Custom_UITableViewCell.aspx)
+
+Properties og synthesize
+* [Properties & Synthesize](http://www.optictheory.com/iphone-dev/2010/02/objective-c-primer-part-3-property-and-synthesize/)
